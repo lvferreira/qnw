@@ -1,3 +1,1 @@
-*.Gherkin linguist-detectable=false
-*.ruby linguist-detectable=true
-*.ruby linguist-language=Ruby
+*.gherkin linguist-detectable=false
