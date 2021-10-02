@@ -60,6 +60,7 @@ GEM
       cucumber-cucumber-expressions (~> 10.3, >= 10.3.0)
       cucumber-messages (~> 13.0, >= 13.0.1)
     diff-lcs (1.4.4)
+    ffi (1.15.1)
     ffi (1.15.1-x64-mingw32)
     httparty (0.18.1)
       mime-types (~> 3.0)
@@ -76,7 +77,9 @@ GEM
     minitest (5.14.4)
     multi_test (0.1.2)
     multi_xml (0.6.0)
-    nokogiri (1.11.7-x64-mingw32)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     oj (3.11.5)
     protobuf-cucumber (3.10.8)
@@ -124,6 +127,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   allure-cucumber (= 2.13.6.4)
